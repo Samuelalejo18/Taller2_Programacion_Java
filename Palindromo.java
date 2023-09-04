@@ -19,7 +19,7 @@ public class Palindromo {
             valor_invertido+=valor.charAt(i);
 
         }
-        // esta funcion pasa de string porque las string no son posibles compararlas con valores numericos
+        // esta funcion pasa de string a  int  porque las string no son posibles compararlas con valores numericos
 
         if(Integer.parseInt(valor_invertido)==numero){
             System.out.print("el numero es palindromo");
