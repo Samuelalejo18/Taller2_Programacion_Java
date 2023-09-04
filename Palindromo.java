@@ -23,6 +23,8 @@ public class Palindromo {
 
         if(Integer.parseInt(valor_invertido)==numero){
             System.out.print("el numero es palindromo");
+        } else{
+            System.out.print("el numero no  es palindromo");
         }
 
     }
